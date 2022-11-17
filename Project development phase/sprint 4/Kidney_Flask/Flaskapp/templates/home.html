@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background:linear-gradient(
+        45deg,
+        rgba(50, 47, 50, 0.6),
+        rgba(117, 111, 122, 0.7)
+    ),
+     url("https://img.freepik.com/premium-photo/illustration-kidney-stones-ureter-businesswoman-gray-background_46527-934.jpg?size=626&ext=jpg&ga=GA1.2.2051852394.1668441913") center center fixed;
+    background-size: cover;
+}
+h1{
+    font-size: 4em;
+    margin: 0;
+    padding:0;
+    text-align: center;
+    font-family: Cambria;
+    position:absolute;
+    top:45%;
+    left:50%;
+    transform:translateX(-49%) translateY(-49%);
+    color:rgb(221, 208, 208);
+    
+}
+.container{
+    width:100%;
+    margin:0 auto;
+}
+header::after{
+    content:'';
+    display:table;
+    clear:both;
+
+}
+nav{
+    float:right;
+
+}
+nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+nav li{
+    display:inline-block;
+    margin-left:70px;
+    padding-top:23px;
+}
+nav a{
+    color: rgb(232, 221, 221);
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:14px;
+}
+nav a:hover{
+     color: #000;
+}
+    </style>
+    <title>Home Page</title>
+    
+</head>
+<body>
+    <h1>CHRONIC KIDNEY DISEASE PREDICTION</h1>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="index.html">PREDICT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+</body>
+</html>
